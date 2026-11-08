@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(pip install:*)",
+      "Bash(pip3 install:*)",
+      "Bash(python -m pip:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)"
+    ],
+    "allow": [
+      "Bash(conda run -n research:*)"
+    ]
+  }
+}
